@@ -1,0 +1,53 @@
+.app-container {
+  max-width: 400px;
+  margin: 40px auto;
+  background-color: #20232a;
+  color: #abbcc0;
+  padding: 20px 30px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 10px #61dafb66;
+  text-align: center;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  background-color: #282c34;
+  color: #fff;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 16px;
+  color: #20232a;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.error {
+  margin-top: 15px;
+  color: #ff4c4c;
+  font-weight: bold;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+  background-color: #282c34;
+  padding: 15px;
+  border-radius: 5px;
+  color: #e2e8f0;
+}
